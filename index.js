@@ -4,6 +4,8 @@ function iterativeLog(array) {
   })
 }
 
-function iterate() {
-
+function iterate(callback) {
+  var array = ["this", "that", "the other"]
+  array.forEach(callback)
+  return array
 }
